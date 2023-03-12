@@ -1,33 +1,32 @@
 import React, { useState } from 'react'
 import './styles/briefcase.css'
-import pokeApi from '../../public/images/pokeApi.gif'
-import ecommerce from '../../public/images/E-commerce.gif'
+
 
 const Briefcase = () => {
 
     const imgData = [
         {
-            img: "../../public/images/pokeApi.gif",
+            img: "../../../images/pokeApi.gif",
             id: 1,
-            link: "https://app-clima-perez.netlify.app",
+            link: "https://pokedex-app-jeremi.netlify.app",
             descripcion: "App que detecta tu ubicacion y brinda el pronostico del clima."
         },
         {
-            img: "../../public/images/E-commerce.gif",
+            img: "../../../images/E-commerce.gif",
             id: 2,
-            link: "https://entregable-6-los-jinetes.netlify.app/#/",
+            link: "https://e-commerce-react-jc.netlify.app",
             descripcion: "Tienda virtual hecha en React."
         },
         {
             img: "../../public/images/e-commerceJs.gif",
             id: 3,
-            link: "https://entregable-6-los-jinetes.netlify.app/#/",
+            link: "https://e-commerce-react-jc.netlify.app",
             descripcion: "Tienda virtual hecha en React."
         },
         {
             img: "../../public/images/quotes.gif",
             id: 4,
-            link: "https://entregable-6-los-jinetes.netlify.app/#/",
+            link: "https://e-commerce-react-jc.netlify.app",
             descripcion: "Tienda virtual hecha en React."
         },
         {
@@ -45,7 +44,7 @@ const Briefcase = () => {
         {
             img: "../../public/images/userApp.gif",
             id: 7,
-            link: "https://entregable-6-los-jinetes.netlify.app/#/",
+            link: "https://app-users-jeremi.netlify.app",
             descripcion: "Tienda virtual hecha en React."
         },
     ]
