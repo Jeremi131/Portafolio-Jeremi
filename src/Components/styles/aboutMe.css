@@ -1,0 +1,255 @@
+.aboutMe {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+
+.img_aboutMe {
+    position: absolute;
+    z-index: -1;
+    max-width: 700px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0.5;
+}
+
+.aboutMe_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 2rem ;
+}
+
+.title_aboutMe {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.title_aboutMe span {
+    color: var(--yellow);
+    font-weight: 700;
+}
+
+.presentation{
+    font-size: 27px;
+}
+
+.text_aboutMe {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 1rem;
+    color: rgb(77, 77, 77);
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.info_education {
+    text-align: center;
+}
+
+.aboutMe_card h3 {
+    font-size: 24px;
+}
+
+.info_skills {
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.829);
+}
+
+.icon_about {
+    color: var(--yellow);
+}
+
+.aboutMe_card p {
+    font-size: 21px;
+}
+
+
+.experience {
+    text-align: center;
+}
+
+.experience h3 {
+    margin-bottom: 1rem;
+}
+
+hr{
+    height: 2px;
+    width: 80%;
+    background-color: black;
+}
+
+.info_dev {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.info_dev_card {
+    width: 100%;
+    max-width: 350px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    border: solid 1px rgb(153, 153, 153);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(141, 141, 141, 0.479);
+
+
+}
+
+.info_dev_card:hover {
+    transform: scale(1.1);
+    transition: transform 1s ease;
+    background: linear-gradient(90deg, rgba(7, 38, 136, 1) 0%, rgba(0, 129, 212, 1) 100%);
+    border: none;
+    color: white;
+    box-shadow: 1px 1px 15px var(--yellow);
+
+}
+
+
+.quantity {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    color: rgb(250, 235, 24);
+    -webkit-text-stroke: 1.5px black;
+}
+
+.info_quantity{
+    text-align: center;
+}
+
+.btn_cv {
+    width: 50%;
+    padding: 1rem;
+    background-color: var(--yellow);
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px 1px rgba(141, 141, 141, 0.856);
+    margin-top: 2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_cv{
+    font-size: 22px;
+    animation: download 1s infinite;
+}
+
+
+@keyframes download {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(3px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 768px) {
+
+    .aboutMe {
+        padding: 4rem;
+    }
+
+    .title_aboutMe{
+        font-size: 40px;
+        margin-bottom: 2rem;
+    }
+
+    .aboutMe_card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .info_container {
+        grid-row: 1/3;
+    }
+
+    .presentation {
+        font-size: 45px;
+    }
+
+    .text_aboutMe {
+        font-size: 25px;
+    }
+
+    .experience {
+        grid-column: 2/3;
+    }
+
+    .aboutMe_card h3 {
+        font-size: 30px;
+    }
+    
+    .info_skills {
+        font-size: 20px;
+    }
+    
+    .aboutMe_card p {
+        font-size: 24px;
+    }
+    
+    
+    .experience {
+        text-align: center;
+    }
+    
+    .experience h3 {
+        margin-bottom: 1rem;
+    }
+
+    .info_dev {
+        flex-direction: row;
+    }
+
+    .info_dev_card {
+        padding: 4.5rem;
+        height: 220px;
+        justify-content: center;
+    }
+
+    .quantity{
+        font-size: 55px;
+        -webkit-text-stroke: 2px black;
+
+    }
+
+    .info_quantity{
+        font-size: 22px;
+    }
+
+    .btn_cv{
+        width: 20%;
+    }
+
+
+}

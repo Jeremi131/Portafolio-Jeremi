@@ -1,0 +1,129 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-image: url(https://t3.ftcdn.net/jpg/01/02/48/36/360_F_102483600_JGhPmhrAfzEeWIib532EtIqAcvRCYaMi.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.name {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.name span{
+    color: var(--yellow);
+}
+
+.title {
+    font-size: 35px;
+    color: var(--whithe);
+    text-align: center;
+
+}
+
+.title span {
+    color: var(--yellow);
+}
+
+.sub_title {
+    color: var(--whithe);
+    text-align: center;
+}
+
+.container_social {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    justify-content: center;
+}
+
+.icon_social {
+    font-size: 40px;
+    color: var(--whithe);
+    cursor: pointer;
+}
+
+.icon_social:hover {
+    color: var(--yellow);
+}
+
+.img_principal {
+    max-width: 350px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 1px 1px 10px 1px rgba(141, 141, 141, 0.479);
+}
+
+.btn_home {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 0 0 10px 10px;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: var(--yellow);
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    box-shadow: 1px 1px 10px 1px rgba(141, 141, 141, 0.479);
+}
+
+.icon_btn {
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .home {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 6rem 4rem;
+    }
+
+    .name{
+        font-size: 47px;
+        text-align: left;
+    }
+
+    .title{
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .sub_title{
+        font-size: 28px;
+        text-align: left;
+    }
+
+    .container_social{
+        justify-content: left;
+    }
+
+    .icon_social{
+        font-size: 50px;
+    }
+
+    .containerImg{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: flex-end;
+        gap: 5px;
+    }
+
+    .img_principal {
+        max-width: 450px;
+    }
+
+    .btn_home {
+        max-width: 450px;
+        padding: 1.2rem;
+    }
+
+}
