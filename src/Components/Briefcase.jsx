@@ -18,31 +18,31 @@ const Briefcase = () => {
             descripcion: "Tienda virtual hecha en React."
         },
         {
-            img: "../../public/images/e-commerceJs.gif",
+            img: "../../../images/e-commerceJs.gif",
             id: 3,
             link: "https://e-commerce-react-jc.netlify.app",
             descripcion: "Tienda virtual hecha en React."
         },
         {
-            img: "../../public/images/quotes.gif",
+            img: "../../../images/quotes.gif",
             id: 4,
             link: "https://e-commerce-react-jc.netlify.app",
             descripcion: "Tienda virtual hecha en React."
         },
         {
-            img: "../../public/images/weatherApp.gif",
+            img: "../../../images/weatherApp.gif",
             id: 5,
             link: "https://entregable-6-los-jinetes.netlify.app/#/",
             descripcion: "Tienda virtual hecha en React."
         },
         {
-            img: "../../public/images/rickAndMorty.gif",
+            img: "../../../images/rickAndMorty.gif",
             id: 6,
             link: "https://entregable-6-los-jinetes.netlify.app/#/",
             descripcion: "Tienda virtual hecha en React."
         },
         {
-            img: "../../public/images/userApp.gif",
+            img: "../../../images/userApp.gif",
             id: 7,
             link: "https://app-users-jeremi.netlify.app",
             descripcion: "Tienda virtual hecha en React."
