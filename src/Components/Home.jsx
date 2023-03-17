@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-scroll'
 import PrincipalImg from '../../public/images/photoDesktop.jpg'
 import './styles/home.css'
 
@@ -13,15 +14,15 @@ const Home = () => {
                 </div>
 
                 <div className='container_social'>
-                    <i className='bx icon_social bxl-linkedin'></i>
-                    <i className='bx icon_social bxl-facebook'></i>
-                    <i className='bx icon_social bxl-instagram'></i>
+                    <a href="https://www.linkedin.com/in/jeremi-castellano-5b924a1a3/" target='_blank'><i className='bx icon_social bxl-linkedin'></i></a>
+                    <a href="https://github.com/Jeremi131" target='_blank'><i className='bx icon_social bxl-github'></i></a>
+                    <a href="https://www.facebook.com/Jeremi.Castellano131" target='_blank'><i className='bx icon_social bxl-facebook'></i></a>
                 </div>
             </div>
 
             <div className='containerImg'>
                 <img className='img_principal' src={PrincipalImg} alt="" />
-                <button className='btn_home'><i className='bx icon_btn bxs-envelope' ></i>Contactame</button>
+                <Link className='btn_home' smooth={true} spy={true} offset={0} duration={500} to='contact'><i className='bx icon_btn bxs-envelope' ></i>Contactame</Link>
             </div>
         </section>
     )
