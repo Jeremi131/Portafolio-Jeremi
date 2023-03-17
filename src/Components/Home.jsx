@@ -22,7 +22,7 @@ const Home = () => {
 
             <div className='containerImg'>
                 <img className='img_principal' src={PrincipalImg} alt="" />
-                <Link className='btn_home' smooth={true} spy={true} offset={0} duration={500} to='contact'><i className='bx icon_btn bxs-envelope' ></i>Contactame</Link>
+                <Link className='btn_home' smooth={true} spy={true} offset={0} duration={500} to='contact'><i className='bx icon_btn bxs-envelope' ></i>Contáctame</Link>
             </div>
         </section>
     )

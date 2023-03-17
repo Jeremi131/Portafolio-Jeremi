@@ -50,7 +50,7 @@ const NavBar = () => {
     return (
         <div>
             <header className={`header ${header && 'headerChange'}`}>
-                <h1 className='title_header'>Jeremi</h1>
+            <Link smooth={true} spy={true} offset={0} duration={500} to='home'><h1 className='title_header'>Jeremi</h1></Link>
 
                 <div className='changeTheme'>
                     <i className='bx icon_theme bxs-sun'></i>
@@ -65,7 +65,7 @@ const NavBar = () => {
                     <Link smooth={true} spy={true} offset={0} duration={500} to='aboutMe'><li>Acerca de Mi</li></Link>
                     <Link smooth={true} spy={true} offset={0} duration={500} to='skills'><li>Habilidades</li></Link>
                     <Link smooth={true} spy={true} offset={-150} duration={500} to='briefcase'><li>Proyectos</li></Link>
-                    <Link smooth={true} spy={true} offset={0} duration={500} to='contact'><li>Contactame</li></Link>
+                    <Link smooth={true} spy={true} offset={0} duration={500} to='contact'><li>Contáctame</li></Link>
                 </ul>
 
                 <div className='menuPhone'>
@@ -74,10 +74,10 @@ const NavBar = () => {
                         <i onClick={handleCloseMenu} className='bx menu_close bx-x'></i>
                         <ul className='menu_phone'>
                             <Link smooth={true} spy={true} offset={0} duration={500} to='home'><li>Home</li></Link>
-                            <Link smooth={true} spy={true} offset={0} duration={500} to='aboutMe'><li>About Me</li></Link>
-                            <Link smooth={true} spy={true} offset={0} duration={500} to='skills'><li>Skilss</li></Link>
-                            <Link smooth={true} spy={true} offset={-150} duration={500} to='briefcase'><li>Briefcase</li></Link>
-                            <Link smooth={true} spy={true} offset={0} duration={500} to='contact'><li>Contact</li></Link>
+                            <Link smooth={true} spy={true} offset={0} duration={500} to='aboutMe'><li>Acerca de Mi</li></Link>
+                            <Link smooth={true} spy={true} offset={0} duration={500} to='skills'><li>Habilidades</li></Link>
+                            <Link smooth={true} spy={true} offset={-150} duration={500} to='briefcase'><li>Proyectos</li></Link>
+                            <Link smooth={true} spy={true} offset={0} duration={500} to='contact'><li>Contáctame</li></Link>
                         </ul>
                     </div>
 

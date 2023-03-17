@@ -4,11 +4,11 @@ import './styles/aboutMe.css'
 const AboutMe = () => {
     return (
         <section id='aboutMe' className='aboutMe'>
-            <h1 className='title_aboutMe'>About <span>Me</span> </h1>
+            <h1 className='title_aboutMe'>Acerca <span>de Mi</span> </h1>
             <div className='aboutMe_card'>
                 <div className='info_container'>
                     <h1 className='presentation'>¡Hola! soy Jeremi Castellano</h1>
-                    <h4 className='text_aboutMe'>Desarrollador web, apasionado de la programacion, dedicado y responsable. Me encantaria formar parte de tu equipo, si quieres saber mas acerca de mi o si tienes alguna duda, no olvides contactarme a traves de mis redes sociales o por un mensaje a ttraves del formulario de contacto. ¡Estare esperando tu mensaje con muchas ansias! </h4>
+                    <h4 className='text_aboutMe'>Desarrollador web, apasionado de la programacion, dedicado y responsable. Me encantaría formar parte de tu equipo, si quieres saber mas acerca de mi o si tienes alguna duda, no olvides contáctarme a través de mis redes sociales o por un mensaje a través del formulario de contacto. ¡Estaré esperando tu mensaje con muchas ansias! </h4>
                 </div>
                 
 
@@ -36,7 +36,7 @@ const AboutMe = () => {
             <div className='info_dev'>
                 <div className='info_dev_card'>
                     <span className='quantity'>+200</span>
-                    <p className='info_quantity'>Horas de Practica</p>
+                    <p className='info_quantity'>Horas de Práctica</p>
                 </div>
 
                 <div className='info_dev_card'>
