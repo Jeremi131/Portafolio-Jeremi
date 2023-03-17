@@ -1,34 +1,40 @@
+import { useState } from 'react'
 import './App.css'
 import AboutMe from './Components/AboutMe'
 import Advert from './Components/Advert'
 import Briefcase from './Components/Briefcase'
 import Contact from './Components/Contact'
 import Home from './Components/Home'
+import Loading from './Components/load/Loading'
 import NavBar from './Components/NavBar'
 import Skills from './Components/Skills'
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true)
+
+  const loading = setTimeout(() => setIsLoading(false), 5000)
 
   return (
-    <div className="App">
+    isLoading ?
+        <Loading />
+        :
+      <div className="App">
 
-      <NavBar/>
-      
-      <Home/>
+        <NavBar />
 
-      <AboutMe/>
+        <Home />
 
-      <Skills/>
+        <AboutMe />
 
-      <Advert/>
+        <Skills />
 
+        <Advert />
 
-      <Briefcase/>
+        <Briefcase />
 
+        <Contact />
 
-      <Contact/>
-
-    </div>
+      </div>
   )
 }
 

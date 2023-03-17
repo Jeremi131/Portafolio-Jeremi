@@ -5,7 +5,7 @@ import contact from '../../public/images/contactImage.png'
 const Contact = () => {
 
     return (
-        <div className='contact'>
+        <div id='contact' className='contact'>
             <div className='title_container'>
                 <hr className='hrOne' />
                 <h1 className='title_contact'>Contact<span>ame</span></h1>

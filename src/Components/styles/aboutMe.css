@@ -31,6 +31,7 @@
 .title_aboutMe {
     font-weight: 700;
     font-size: 30px;
+    color: var(--text1);
 }
 
 .title_aboutMe span {
@@ -40,13 +41,14 @@
 
 .presentation{
     font-size: 27px;
+    color: var(--text1);
 }
 
 .text_aboutMe {
     font-size: 20px;
     text-align: left;
     margin-top: 1rem;
-    color: rgb(77, 77, 77);
+    color: var(--text2);
 }
 
 .education {
@@ -62,11 +64,12 @@
 
 .aboutMe_card h3 {
     font-size: 24px;
+    color: var(--text1);
 }
 
 .info_skills {
     font-size: 18px;
-    color: rgba(39, 39, 39, 0.829);
+    color: var(--text2);
 }
 
 .icon_about {
@@ -75,6 +78,7 @@
 
 .aboutMe_card p {
     font-size: 21px;
+    color: var(--text1);
 }
 
 
@@ -109,11 +113,9 @@ hr{
     justify-content: center;
     gap: 1rem;
     padding: 2rem;
-    border: solid 1px rgb(153, 153, 153);
+    border: solid 1px var(--border);
     border-radius: 5px;
-    box-shadow: 1px 1px 10px 1px rgba(141, 141, 141, 0.479);
-
-
+    box-shadow: 1px 1px 10px 1px var(--shadow);
 }
 
 .info_dev_card:hover {
@@ -123,22 +125,21 @@ hr{
     border: none;
     color: white;
     box-shadow: 1px 1px 15px var(--yellow);
-
 }
-
 
 .quantity {
     width: 100%;
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--border);
     color: rgb(250, 235, 24);
     -webkit-text-stroke: 1.5px black;
 }
 
 .info_quantity{
     text-align: center;
+    color: var(--text1);
 }
 
 .btn_cv {
@@ -146,7 +147,7 @@ hr{
     padding: 1rem;
     background-color: var(--yellow);
     border-radius: 30px;
-    box-shadow: 1px 1px 10px 1px rgba(141, 141, 141, 0.856);
+    box-shadow: 1px 1px 10px 1px var(--shadow);
     margin-top: 2rem;
     font-weight: 600;
     display: flex;

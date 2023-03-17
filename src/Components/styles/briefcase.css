@@ -3,10 +3,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
 }
 
 .title_briefcase{
     font-size: 30px;
+    color: var(--text1);
 }
 
 .title_briefcase span{
@@ -16,6 +18,7 @@
 .carousel{
     display: flex;
     align-items: center;
+    gap: .7rem;
 }
 
 .slider{
@@ -34,15 +37,57 @@
 
 .slider_imgContainer{
     width: 100%;
-    aspect-ratio: 1.5;
-    padding: 1em;
+    position: relative;
 }
 
 .slider_img{
     width: 100%;
     height: 100%;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px rgb(104, 104, 104);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.image_hover{
+    position: absolute;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(7, 37, 136, 0.945) 0%, rgba(0, 131, 212, 0.932) 100%);
+    overflow: hidden;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    height: 99%;
+    top: 0;
+    left: 0;
+
+    transform: translateX(2500px);
+    transition: transform 700ms ease;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hover-visible{
+    transform: translateX(0);
+}
+
+.name_app{
+    color: var(--yellow);
+    font-size: 22px;
+    text-align: center;
+}
+
+.app_description{
+    text-align: center;
+}
+
+.link{
+    color: var(--yellow);
+    font-weight: 600;
 }
 
 .slider_btn{
@@ -70,4 +115,22 @@
 
 .slider_btn-left{
     left: 0;
+}
+
+@media (min-width: 768px) {
+    .image_hover{
+        padding: 4rem;
+    }
+
+    .name_app{
+        font-size: 32px;
+    }
+    
+    .app_description{
+        font-size: 25px;
+    }
+    
+    .link{
+        font-size: 25px;
+    }
 }

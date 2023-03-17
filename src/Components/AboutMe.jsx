@@ -3,11 +3,11 @@ import './styles/aboutMe.css'
 
 const AboutMe = () => {
     return (
-        <section className='aboutMe'>
+        <section id='aboutMe' className='aboutMe'>
             <h1 className='title_aboutMe'>About <span>Me</span> </h1>
             <div className='aboutMe_card'>
                 <div className='info_container'>
-                    <h1 className='presentation'>¡Hola! soy Jeremi Castellano <i className='bx bx-code-curly' ></i></h1>
+                    <h1 className='presentation'>¡Hola! soy Jeremi Castellano</h1>
                     <h4 className='text_aboutMe'>Desarrollador web, apasionado de la programacion, dedicado y responsable. Me encantaria formar parte de tu equipo, si quieres saber mas acerca de mi o si tienes alguna duda, no olvides contactarme a traves de mis redes sociales o por un mensaje a ttraves del formulario de contacto. ¡Estare esperando tu mensaje con muchas ansias! </h4>
                 </div>
                 

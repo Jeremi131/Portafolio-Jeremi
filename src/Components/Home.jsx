@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PrincipalImg from '../../public/images/photoDesktop.jpg'
 import './styles/home.css'
 
 const Home = () => {
     return (
-        <section className='home'>
-            <div>
+        <section id='home' className='home'>
+            <div className='home_container'>
                 <div className='text_container'>
                     <h1 className='name'>Jeremi <span>Castellano</span></h1>
                     <h1 className='title'>Desarrollador <span>Front-end</span> </h1>
