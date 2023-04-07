@@ -68,7 +68,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 .hover-visible{
@@ -77,17 +77,21 @@
 
 .name_app{
     color: var(--yellow);
-    font-size: 22px;
+    font-size: 13px;
     text-align: center;
 }
 
 .app_description{
     text-align: center;
+    font-size: 13px;
+
 }
 
 .link{
     color: var(--yellow);
     font-weight: 600;
+    font-size: 12px;
+
 }
 
 .slider_btn{
@@ -115,6 +119,24 @@
 
 .slider_btn-left{
     left: 0;
+}
+
+@media (max-width: 375px) {
+    .image_hover{
+        gap: .2rem;
+    }
+
+    .name_app{
+        font-size: 9px;
+    }
+    
+    .app_description{
+        font-size: 10px;
+    }
+    
+    .link{
+        font-size: 9px;
+    }
 }
 
 @media (min-width: 768px) {
