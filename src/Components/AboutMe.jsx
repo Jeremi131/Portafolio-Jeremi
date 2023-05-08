@@ -35,12 +35,12 @@ const AboutMe = () => {
             <hr />
             <div className='info_dev'>
                 <div className='info_dev_card'>
-                    <span className='quantity'>+200</span>
+                    <span className='quantity'>+420</span>
                     <p className='info_quantity'>Horas de Práctica</p>
                 </div>
 
                 <div className='info_dev_card'>
-                    <span className='quantity'>+8</span>
+                    <span className='quantity'>+10</span>
                     <p className='info_quantity'>Proyectos terminados</p>
                 </div>
             </div>

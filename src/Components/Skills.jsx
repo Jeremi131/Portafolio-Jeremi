@@ -32,6 +32,18 @@ const Skills = () => {
                     <h3>JAVASCRIPT</h3>
                     <p>Basto conocimiento del motor y funcionalidades para cubrir tus necesidades</p>
                 </div>
+
+                <div className='card_skill'>
+                    <i className='bx icon_skill bxl-nodejs'></i>
+                    <h3>EXPRESS</h3>
+                    <p>Especializado en esta librería para realizar API's funcionales para realizar aplicaciones Front-end.</p>
+                </div>
+
+                <div className='card_skill'>
+                    <i className='bx icon_skill bxl-nodejs'></i>
+                    <h3>NODEJS</h3>
+                    <p>Conocimiento en este entorno de codigo abierto, para realizar Aplicaciones web completas y funcionales.</p>
+                </div>
             </div>
         </section>
     )

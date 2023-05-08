@@ -9,8 +9,8 @@ const Home = () => {
             <div className='home_container'>
                 <div className='text_container'>
                     <h1 className='name'>Jeremi <span>Castellano</span></h1>
-                    <h1 className='title'>Desarrollador <span>Front-end</span> </h1>
-                    <h3 className='sub_title'>Javascript | HTML | CSS | React Js.</h3>
+                    <h1 className='title'>Desarrollador <span>Full Stack Web</span> </h1>
+                    <h3 className='sub_title'>Javascript | HTML | CSS | React Js. | NodeJs | Express | PostgresSQL</h3>
                 </div>
 
                 <div className='container_social'>
